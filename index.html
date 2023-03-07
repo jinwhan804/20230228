@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- a 태그의 href에 #을 작성하면 페이지의 최상단으로 이동 -->
+    <!-- a 태그의 href에 # + 태그의 아이디를 작성하면 해당 태그로 스크롤 이동 -->
+    <!-- a 태그를 만들었을 때 href 이건 뭐라 부르지? -> 속성의 이름
+    attribute : style, href -->
+    <div style="width: 100%; height: 200vh;">
+        <a href="#list">두 번째 리스트로 이동</a>
+        <div style="height: 100vh;">
+            <h1>첫 번째 리스트</h1>
+            <ul>
+                <li>첫 번째</li>        
+                <li>두 번째</li>
+            </ul>
+        </div>
+        <a href="#">위로 이동</a>
+        <div id="list">
+            <h1>두 번째 리스트</h1>
+            <ol start="2">
+                <li>첫 번째</li>
+                <li>두 번째</li>
+            </ol>
+        </div>    
+    </div>
+    지금까지 사용한 태그들
+    <div>가장 기본적인 영역(한 줄을 다 차지하는 블록 속성)</div>
+    <p>문단 텍스트</p>
+    <span>인라인 형식의 태그(본인 자리 차지 후 옆으로 나열)</span>
+    줄내림 <br/>
+    <h1>제목으로 주로 사용하는 태그</h1>
+    번호가 매겨진 리스트를 작성할 때 사용, ol태그는 li와 짝으로 붙어다닌다.<ol><li></li></ol>
+    번호가 매겨지지 않는 리스트를 작성할 때 사용, ul태그도 li와 짝으로 붙어다닌다. <ul><li></li></ul>
+    페이지를 이동하거나 해당 태그로 브라우저의 스크롤을 이동시키는 태그 <a href=""></a>
+    이미지 불러오기<img src="이미지 파일의 경로 혹은 URL 주소 입력(gif도 가능)" alt="이미지가 정상적으로 불러와 지지 않았을 때 문구 입력">
+    속성(attribute) : style같은 것들
+    <div style="display: block;">
+        속성은 태그를 설정한다.
+        속성을 줄 때는 속성명 = "속성의 내용"
+    </div>
+</body>
+</html>
